@@ -36,8 +36,8 @@
         {
 
             context.Students.Update(p);
-            
-            
+
+            context.SaveChanges();
         }
     }
 }
